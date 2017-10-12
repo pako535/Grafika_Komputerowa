@@ -1,0 +1,8 @@
+﻿  Source.cpp
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\lab1_zad1\source.cpp(92): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\lab1_zad1\source.cpp(95): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\lab1_zad1\source.cpp(98): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\lab1_zad1\source.cpp(101): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  point.cpp
+  Generating Code...
+  Lab1_Zad1.vcxproj -> E:\Obrazy\Studia\!Semestr 5\Grafika_Komputerowa-master\Lab1_Zad1\Debug\Lab1_Zad1.exe
