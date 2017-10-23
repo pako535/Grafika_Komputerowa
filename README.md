@@ -1,1 +1,0 @@
-Grafika_Komputerowa-master
