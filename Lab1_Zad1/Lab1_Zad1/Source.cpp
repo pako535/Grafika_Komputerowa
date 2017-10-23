@@ -258,7 +258,7 @@ void myinit()
 //}
 void RenderScene()
 {
-	// vertices of triangle
+	// współrzędne trójkąta
 	GLfloat vertices[3][2] = { { 0.0, 0.0 },{ 25.0, 50.0 },{ 50.0, 0.0 } };
 
 	int pointsNum, midPoint;
