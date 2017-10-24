@@ -1,0 +1,13 @@
+﻿  Source.cpp
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(67): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(68): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(70): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(72): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(73): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(118): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(119): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(121): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(123): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+d:\grafika komputerowa\lab2_zad2\project1\project1\source.cpp(124): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+  Project1.vcxproj -> D:\Grafika komputerowa\Lab2_Zad2\Project1\Debug\Project1.exe
+  Project1.vcxproj -> D:\Grafika komputerowa\Lab2_Zad2\Project1\Debug\Project1.pdb (Full PDB)
