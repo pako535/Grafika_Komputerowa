@@ -13,6 +13,7 @@ using namespace std;
 
 typedef float point3[3];
 int model = 1;  // 1- punkty, 2- siatka, 3 - wype³nione trójk¹ty
+static GLfloat theta[] = { 0.0, 0.0, 0.0 }; // trzy k¹ty obrotu
 /*************************************************************************************/
 
 
@@ -53,7 +54,9 @@ void Axes(void)
 // Funkcja okreœlaj¹ca co ma byæ rysowane (zawsze wywo³ywana gdy trzeba 
 // przerysowaæ scenê)
 
-
+// **************************************************************
+// Przeliczenie wspo³rzêdnych dwu wymiarowych na wspolrzedne trzy wymiarowe dla x, y, z
+//***************************************************************
 float x(int i, int j,float n)
 {	
 
@@ -89,7 +92,9 @@ void Jajko()
 	int N = 100;
 
 	point3 ** tab = new point3 *[N];
-
+// **************************************************************
+// Rzutowanie punktów o wspó³rzednych 3d na macierz
+//***************************************************************
 	for (int i = 0; i < N; i++)
 	{
 		tab[i] = new point3[N];
@@ -106,34 +111,149 @@ void Jajko()
 
 		}
 	}
-	
 
-	
-	/*glBegin(GL_POINTS);
-	for (int i = 0; i < N; i++)
-	{
-		for (int j = 0; j < N; j++)
-		{
-			glVertex3fv(tab[i][j]);
+// **************************************************************
+//	Wygenerowanie tablicy kolorów
+//***************************************************************
+	point3  **colors;
+	colors = new point3*[N];
+
+	for (int i = 0; i < N; i++) {
+		colors[i] = new point3[N];
+	}
+
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			colors[i][j][0] = float(rand() % 1000) / 1000;
+			colors[i][j][1] = float(rand() % 1000) / 1000;
+			colors[i][j][2] = float(rand() % 1000) / 1000;
 		}
 	}
-	glEnd();*/
-
-
-	/*glBegin(GL_LINES);
-	for (int i = 0; i < N-1; i++)
+// **************************************************************
+//	Wyswietlenie jajka w postaci punktow
+//***************************************************************
+	if (model == 1) 
 	{
-		for (int j = 0; j < N-1; j++)
+		glBegin(GL_POINTS);
+		for (int i = 0; i < N; i++)
 		{
-			glVertex3fv(tab[i][j]);
-			glVertex3fv(tab[i+1][j+1]);
+			for (int j = 0; j < N; j++)
+			{
+				glVertex3fv(tab[i][j]);
+			}
+		}
+		glEnd();
+	}
+// **************************************************************
+// Wyswietlenie jajka w postaci siatki
+//***************************************************************
+	else if (model == 2)
+	{
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N; j++) {
+
+				// linie pionowe
+				glBegin(GL_LINES);
+				glColor3f(0.0f, 1.0f, 0.0f);
+				glVertex3fv(tab[i][j]);
+				glVertex3fv(tab[(i + 1) % N][j]);
+				glEnd();
+				//linie ukoœne
+				glBegin(GL_LINES);
+				if (((j + 1) != N) && ((i + 1) != N)) {
+					glVertex3fv(tab[i + 1][j]);
+					glVertex3fv(tab[i][j + 1]);
+				}
+				else {
+					if (i > 0) {
+						glVertex3fv(tab[i][j]);
+						glVertex3fv(tab[N - i - 1][0]);
+					}
+				}
+				glEnd();
+				//linie poziome
+				glBegin(GL_LINES);
+				glColor3f(0.0f, 1.0f, 0.0f);
+				if ((j + 1) == N) {
+					if (i > 0) {
+						glVertex3fv(tab[N - i][0]);
+						glVertex3fv(tab[i][j]);
+					}
+				}
+				else {
+					glVertex3fv(tab[i][j + 1]);
+					glVertex3fv(tab[i][j]);
+				}
+				glEnd();
+			}
 		}
 	}
-	glEnd();*/
+// **************************************************************
+// Wyswietlenie pokolorwanego jajaka
+//*************************************************************** 
+	else if (model == 3)
+	{
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N; j++) {
+				if ((j + 1) != N) {
+					glBegin(GL_TRIANGLES);
+					glColor3fv(colors[i][j]);
+					glVertex3fv(tab[i][j]);
+					glColor3fv(colors[(i + 1) % N][j]);
+					glVertex3fv(tab[(i + 1) % N][j]);
+					glColor3fv(colors[i][j + 1]);
+					glVertex3fv(tab[i][j + 1]);
+					glEnd();
 
+					glBegin(GL_TRIANGLES);
+					glColor3fv(colors[(i + 1) % N][j]);
+					glVertex3fv(tab[(i + 1) % N][j]);
+					glColor3fv(colors[(i + 1) % N][j + 1]);
+					glVertex3fv(tab[(i + 1) % N][j + 1]);
+					glColor3fv(colors[i][j + 1]);
+					glVertex3fv(tab[i][j + 1]);
+					glEnd();
+				}
+				else {
+					if (i > 0) {
+						glBegin(GL_TRIANGLES);
+						glColor3fv(colors[i][j]);
+						glVertex3fv(tab[i][j]);
+						glColor3fv(colors[(i + 1) % N][j]);
+						glVertex3fv(tab[(i + 1) % N][j]);
+						glColor3fv(colors[N - i][0]);
+						glVertex3fv(tab[N - i][0]);
+						glEnd();
+					}
+					glBegin(GL_TRIANGLES);
+					glColor3fv(colors[(i + 1) % N][j]);
+					glVertex3fv(tab[(i + 1) % N][j]);
+					glColor3fv(colors[(N - i) % N][0]);
+					glVertex3fv(tab[(N - i) % N][0]);
+					glColor3fv(colors[N - i - 1][0]);
+					glVertex3fv(tab[N - i - 1][0]);
+					glEnd();
 
-// Wype³nic trojkatami nie liniami
+				}
+			}
+		}
+	}
+}
 
+void spinEgg()
+{
+
+	theta[0] -= 0.5;
+	if (theta[0] > 360.0) theta[0] -= 360.0;
+
+	theta[1] -= 0.5;
+	if (theta[1] > 360.0) theta[1] -= 360.0;
+
+	theta[2] -= 0.5;
+	if (theta[2] > 360.0) theta[2] -= 360.0;
+	Sleep(50);
+
+	glutPostRedisplay(); //odœwie¿enie zawartoœci aktualnego okna
 }
 
 void RenderScene(void)
@@ -145,6 +265,12 @@ void RenderScene(void)
 	// Czyszczenie macierzy bie¿¹cej
 	Axes();
 	// Narysowanie osi przy pomocy funkcji zdefiniowanej wy¿ej
+	glRotatef(theta[0], 1.0, 0.0, 0.0);
+
+	glRotatef(theta[1], 0.0, 1.0, 0.0);
+
+	glRotatef(theta[2], 0.0, 0.0, 1.0);
+
 	Jajko();
 	glColor3f(1.0f, 1.0f, 1.0f); // Ustawienie koloru rysowania na bia³y
 	//glutWireTeapot(3.0); // Narysowanie obrazu czajnika do herbaty
@@ -216,9 +342,9 @@ void ChangeSize(GLsizei horizontal, GLsizei vertical)
 /*************************************************************************************/
 // G³ówny punkt wejœcia programu. Program dzia³a w trybie konsoli
 
-void main(void)
+void  main(int argc, char** argv)
 {
-
+	glutInit(&argc, argv);
 	cout << sin(M_PI);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 
@@ -226,6 +352,7 @@ void main(void)
 
 	glutCreateWindow("Uk³ad wspó³rzêdnych 3-D");
 	glutKeyboardFunc(keys);
+	glutIdleFunc(spinEgg);
 	glutDisplayFunc(RenderScene);
 	// Okreœlenie, ¿e funkcja RenderScene bêdzie funkcj¹ zwrotn¹
 	// (callback function).  Bedzie ona wywo³ywana za ka¿dym razem 

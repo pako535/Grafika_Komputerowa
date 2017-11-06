@@ -1,24 +1,24 @@
 ﻿  Source.cpp
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(48): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(49): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(51): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(51): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(53): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(54): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(54): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(99): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(99): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(100): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(100): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(102): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(102): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(104): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(104): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(105): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(105): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(153): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\paweł\desktop\sierpinskii triangle\sierpinskii triangle\source.cpp(154): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-  Sierpinskii triangle.vcxproj -> C:\Users\Paweł\Desktop\Sierpinskii triangle\Debug\Sierpinskii triangle.exe
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(70): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(71): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(71): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(73): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(73): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(75): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(75): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(76): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(76): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(121): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(121): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(122): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(122): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(124): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(124): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(126): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(126): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(127): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(127): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(175): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab1_zad1\sierpinskii triangle\sierpinskii triangle\source.cpp(176): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Sierpinskii triangle.vcxproj -> E:\Obrazy\Studia\!Semestr 5\Grafika_Komputerowa-master\Lab1_Zad1\Sierpinskii triangle\Debug\Sierpinskii triangle.exe

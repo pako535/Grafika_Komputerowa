@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\paweł\source\repos\piramida_sierpinskiego\piramida_sierpinskiego\source.cpp(155): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Piramida_Sierpinskiego.vcxproj -> C:\Users\Paweł\source\repos\Piramida_Sierpinskiego\Debug\Piramida_Sierpinskiego.exe
