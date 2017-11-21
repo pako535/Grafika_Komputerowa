@@ -1,0 +1,4 @@
+﻿  Source.cpp
+g:\grafika komputerowa\lab3_zad3\piramida_sierpinskiego\piramida_sierpinskiego\source.cpp(270): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+g:\grafika komputerowa\lab3_zad3\piramida_sierpinskiego\piramida_sierpinskiego\source.cpp(310): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Piramida_Sierpinskiego.vcxproj -> G:\Grafika komputerowa\Lab3_Zad3\Piramida_Sierpinskiego\Debug\Piramida_Sierpinskiego.exe
