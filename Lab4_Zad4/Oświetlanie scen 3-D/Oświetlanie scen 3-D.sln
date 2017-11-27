@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ó=Oświetlanie scen 3-D", "ó=Oświetlanie scen 3-D\ó=Oświetlanie scen 3-D.vcxproj", "{52AECB55-6ED7-42D3-BE84-21420FF96844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52AECB55-6ED7-42D3-BE84-21420FF96844}.Debug|x64.ActiveCfg = Debug|x64
+		{52AECB55-6ED7-42D3-BE84-21420FF96844}.Debug|x64.Build.0 = Debug|x64
+		{52AECB55-6ED7-42D3-BE84-21420FF96844}.Debug|x86.ActiveCfg = Debug|Win32
+		{52AECB55-6ED7-42D3-BE84-21420FF96844}.Debug|x86.Build.0 = Debug|Win32
+		{52AECB55-6ED7-42D3-BE84-21420FF96844}.Release|x64.ActiveCfg = Release|x64
+		{52AECB55-6ED7-42D3-BE84-21420FF96844}.Release|x64.Build.0 = Release|x64
+		{52AECB55-6ED7-42D3-BE84-21420FF96844}.Release|x86.ActiveCfg = Release|Win32
+		{52AECB55-6ED7-42D3-BE84-21420FF96844}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68B07856-E19D-4580-88F3-BFCE8DC43166}
+	EndGlobalSection
+EndGlobal

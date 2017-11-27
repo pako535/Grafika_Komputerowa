@@ -1,13 +1,1 @@
-﻿  Source.cpp
-Source.cpp(65): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-Source.cpp(85): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-Source.cpp(108): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Source.cpp(109): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-Source.cpp(110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Generating code
-  0 of 15 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  zad2.vcxproj -> E:\Obrazy\Studia\!Semestr 5\Grafika_Komputerowa-master\Lab2_Zad2\zad2\Release\zad2.exe
-  zad2.vcxproj -> E:\Obrazy\Studia\!Semestr 5\Grafika_Komputerowa-master\Lab2_Zad2\zad2\Release\zad2.pdb (Full PDB)
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: Nie można odnaleźć narzędzi kompilacji dla v140 (zestaw narzędzi platformy = „v140”). Aby wykonać kompilację przy użyciu narzędzi kompilacji v140, zainstaluj narzędzia kompilacji v140. Możesz też wykonać aktualizację do najnowszych narzędzi programu Visual Studio, wybierając menu Projekt lub klikając prawym przyciskiem myszy rozwiązanie, a następnie wybierając polecenie „Wskaż ponownie rozwiązanie...”.

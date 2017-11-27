@@ -1,0 +1,12 @@
+﻿  Źródło.cpp
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(65): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(85): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(96): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(106): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(116): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(131): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(140): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(163): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(164): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab4_zad4\oświetlanie scen 3-d\ó=oświetlanie scen 3-d\źródło.cpp(165): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  ó=Oświetlanie scen 3-D.vcxproj -> C:\Users\pako-\Documents\Studia\!Semestr 5\Grafika_Komputerowa-master\Lab4_Zad4\Oświetlanie scen 3-D\x64\Debug\Oświetlanie scen 3-D.exe
