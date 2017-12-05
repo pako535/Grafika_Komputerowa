@@ -298,11 +298,11 @@ void MyInit(void)
 	// sk³adowe intensywnoœci œwiecenia Ÿród³a œwiat³a otoczenia
 	// Ia = [Iar,Iag,Iab]
 
-	GLfloat light_diffuse[] = { 1.0, 1.0, 0.0, 1.0 };
+	GLfloat light_diffuse[] = { 0.5, 0.0, 0.8, 1.0 };
 	// sk³adowe intensywnoœci œwiecenia Ÿród³a œwiat³a powoduj¹cego
 	// odbicie dyfuzyjne Id = [Idr,Idg,Idb]
 
-	GLfloat light_specular[] = { 1.0, 1.0, 1.0, 1.0 };
+	GLfloat light_specular[] = { 0.5, 0.0, 0.8, 1.0 };
 	// sk³adowe intensywnoœci œwiecenia Ÿród³a œwiat³a powoduj¹cego
 	// odbicie kierunkowe Is = [Isr,Isg,Isb]
 
@@ -315,6 +315,33 @@ void MyInit(void)
 	// odleg³oœci od Ÿród³a
 
 	GLfloat att_quadratic = 0.001;
+	// sk³adowa kwadratowa dq dla modelu zmian oœwietlenia w funkcji
+	// odleg³oœci od Ÿród³a
+
+	// Definicja Ÿród³a œwiat³a 2
+
+
+	GLfloat light_ambient1[] = { 0.1, 0.1, 0.1, 1.0 };
+	// sk³adowe intensywnoœci œwiecenia Ÿród³a œwiat³a otoczenia
+	// Ia = [Iar,Iag,Iab]
+
+	GLfloat light_diffuse1[] = { 0.0, 0.8, 0.0, 1.0 };
+	// sk³adowe intensywnoœci œwiecenia Ÿród³a œwiat³a powoduj¹cego
+	// odbicie dyfuzyjne Id = [Idr,Idg,Idb]
+
+	GLfloat light_specular1[] = { 0.0, 0.8, 0.0, 1.0 };
+	// sk³adowe intensywnoœci œwiecenia Ÿród³a œwiat³a powoduj¹cego
+	// odbicie kierunkowe Is = [Isr,Isg,Isb]
+
+	GLfloat att_constant1 = 1.0;
+	// sk³adowa sta³a ds dla modelu zmian oœwietlenia w funkcji 
+	// odleg³oœci od Ÿród³a
+
+	GLfloat att_linear1 = 0.05;
+	// sk³adowa liniowa dl dla modelu zmian oœwietlenia w funkcji 
+	// odleg³oœci od Ÿród³a
+
+	GLfloat att_quadratic1 = 0.001;
 	// sk³adowa kwadratowa dq dla modelu zmian oœwietlenia w funkcji
 	// odleg³oœci od Ÿród³a
 
@@ -343,14 +370,14 @@ void MyInit(void)
 	/*************************************************************************************/
 	// Ustawienie parametrów dla drugiego Ÿród³a œwiat³a
 
-	glLightfv(GL_LIGHT1, GL_AMBIENT, light_ambient);
-	glLightfv(GL_LIGHT1, GL_DIFFUSE, light_diffuse);
-	glLightfv(GL_LIGHT1, GL_SPECULAR, light_specular);
+	glLightfv(GL_LIGHT1, GL_AMBIENT, light_ambient1);
+	glLightfv(GL_LIGHT1, GL_DIFFUSE, light_diffuse1);
+	glLightfv(GL_LIGHT1, GL_SPECULAR, light_specular1);
 	glLightfv(GL_LIGHT1, GL_POSITION, light_position1);
 
-	glLightf(GL_LIGHT1, GL_CONSTANT_ATTENUATION, att_constant);
-	glLightf(GL_LIGHT1, GL_LINEAR_ATTENUATION, att_linear);
-	glLightf(GL_LIGHT1, GL_QUADRATIC_ATTENUATION, att_quadratic);
+	glLightf(GL_LIGHT1, GL_CONSTANT_ATTENUATION, att_constant1);
+	glLightf(GL_LIGHT1, GL_LINEAR_ATTENUATION, att_linear1);
+	glLightf(GL_LIGHT1, GL_QUADRATIC_ATTENUATION, att_quadratic1);
 
 	/*************************************************************************************/
 	// Ustawienie opcji systemu oœwietlania sceny 

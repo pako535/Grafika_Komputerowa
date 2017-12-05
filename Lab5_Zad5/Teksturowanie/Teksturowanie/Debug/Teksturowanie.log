@@ -1,0 +1,14 @@
+﻿  Source.cpp
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(46): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(52): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(203): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(204): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(208): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(211): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(212): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+c:\users\pako-\documents\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\teksturowanie\teksturowanie\source.cpp(527): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Teksturowanie.vcxproj -> C:\Users\pako-\Documents\Studia\!Semestr 5\Grafika_Komputerowa-master\Lab5_Zad5\Teksturowanie\Debug\Teksturowanie.exe
