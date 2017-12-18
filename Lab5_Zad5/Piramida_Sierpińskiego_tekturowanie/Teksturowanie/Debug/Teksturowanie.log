@@ -1,0 +1,17 @@
+﻿  Source.cpp
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(69): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(93): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(94): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(95): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(100): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(102): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(104): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(106): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(390): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(391): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(395): warning C4244: '+=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(399): warning C4305: '-=': truncation from 'double' to 'GLfloat'
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(400): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+e:\obrazy\studia\!semestr 5\grafika_komputerowa-master\lab5_zad5\piramida_sierpińskiego_tekturowanie\teksturowanie\source.cpp(652): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Teksturowanie.vcxproj -> E:\Obrazy\Studia\!Semestr 5\Grafika_Komputerowa-master\Lab5_Zad5\Piramida_Sierpińskiego_tekturowanie\Debug\Teksturowanie.exe
